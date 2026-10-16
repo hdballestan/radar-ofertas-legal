@@ -68,8 +68,8 @@ El usuario responde al correo de aviso con comandos como `CV`, `CV ENFOQUE <tema
 - [x] Fase 0. Estructura, configuración y CLI
 - [x] Fase 1. Gmail: OAuth, etiquetas, filtros y envío
 - [x] Fase 2. Perfil maestro con evidencia y hoja de vida base en español e inglés
-- [ ] Fase 3. Ingesta, extractores, lista de exclusión y seguridad de enlaces
-- [ ] Fase 4. Evaluación por modalidad de contratación y avisos
+- [x] Fase 3. Ingesta, extractores, lista de exclusión y seguridad de enlaces
+- [x] Fase 4. Evaluación por modalidad de contratación, avisos y hoja de vida adaptada con validador
 - [ ] Fase 5. Comandos por correo y validador de la hoja de vida
 - [ ] Fase 6. SECOP II, feeds ATS y páginas institucionales
 - [ ] Fase 7. Programación, monitoreo y recuperación
