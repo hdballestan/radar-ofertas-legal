@@ -52,14 +52,14 @@ code {
   border-bottom: 1px solid var(--borde);
 }
 .barra .contenedor { display: flex; align-items: center; justify-content: space-between; height: 60px; gap: 16px; }
-.marca { font-weight: 650; letter-spacing: -0.01em; color: var(--texto); text-decoration: none; display: flex; align-items: center; gap: 10px; }
+.marca { font-weight: 650; letter-spacing: -0.01em; color: var(--texto); text-decoration: none; display: flex; align-items: center; gap: 10px; white-space: nowrap; }
 .marca svg { flex: none; }
 .nav { display: flex; gap: 22px; font-size: 15px; }
 .nav a { color: var(--texto-suave); text-decoration: none; }
 .nav a:hover { color: var(--texto); }
 
 /* Portada */
-.portada { padding: 88px 0 56px; }
+.portada { padding-top: 88px; padding-bottom: 56px; }
 .etiqueta {
   display: inline-block; font-size: 13px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;
   color: var(--acento); background: var(--acento-suave); padding: 6px 12px; border-radius: 999px;
@@ -137,7 +137,8 @@ footer a { color: var(--texto-suave); }
   .contenedor { padding: 0 16px; }
   .nav { gap: 14px; font-size: 14px; }
   .nav .opcional { display: none; }
-  .portada { padding: 56px 0 40px; }
+  .portada { padding-top: 56px; padding-bottom: 40px; }
+  .marca { font-size: 15px; }
   .flujo, .tarjetas { grid-template-columns: 1fr; }
   section { padding: 44px 0; }
 }
